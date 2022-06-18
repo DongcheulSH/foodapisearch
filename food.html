@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+      width: 20em;
+      height: 40em;
+      float : left;
+    }
+
+    .foodimg{
+      width: 20em;
+      height: 30em;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="single-item slider">
+    <div class="foodElement"></div>
+    <div class="foodElement"></div>
+  </section>
+  <div>
+    <input type="text" class="foodSearchTxt">
+    <button class="foodSearchBtn">버튼클릭해봐</button>
+  </div>
+
+
+  <script type="text/javascript" src="js/secret.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/callfoodapi.js"></script>
+
+  <script type="text/javascript">
+    $('.single-item').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+
+  </script>
+
+</body>
+
+</html>
