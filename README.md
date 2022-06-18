@@ -50,7 +50,7 @@
   (2) 해결 : 동일한 명칭의 다른 년도에 파악한 데이터 들중 최신 것만 뽑기 (현재)  
 7) 문제사항  
   (1) 티스토리에 jquery 적용방법 - https://www.jbfactory.net/10527  
-  (2) slick 유명사이트에서 슬라이드 이용하기위해 참고중 - https://kenwheeler.github.io/slick/  
+  (2) slick 유명사이트에서 슬라이드 이용하기위해 참고 - https://kenwheeler.github.io/slick/  
   (3) CORS 문제 발생으로 프록시 서비스 이용  
 
 2.2 css 디자인 설게  
