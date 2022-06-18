@@ -10,7 +10,7 @@
 1) 식품 데이터 요청 주소  : http://openapi.foodsafetykorea.go.kr/api/인증키/서비스명/요청파일타입/요청시작위치/요청종료위치  
 	샘플 : http://openapi.foodsafetykorea.go.kr/api/sample/I2790/xml/1/5/DESC_KOR=값 &RESEARCH_YEAR=값 &MAKER_NAME=값 &FOOD_CD=값 &CHNG_DT=값  
 	이용 : http://openapi.foodsafetykorea.go.kr/api/인증키/I2790/json/1/5/DESC_KOR=몬스터  
-2) js 에서 추출할 값 :	{"I2790" :   
+2) 결과 json 에서 추출할 값 :	{"I2790" :   
 				{"total_count" : 총갯수    
 				"row" :	[	{ "NUTR_CONT1" : "열량(kcal)(1회제공량당)"  
 						 "NUTR_CONT2" : "탄수화물(g)(1회제공량당)"  
@@ -19,7 +19,7 @@
 						"SUB_REF_NAME" : "자료출처('년도)"  
 						"MAKER_NAME" : "제조사명"  
 						},  
-						{~},{~}...   
+						{ },{ }...   
 					]  
 				"RESULT": {  
             					"MSG": "정상처리되었습니다.",  
